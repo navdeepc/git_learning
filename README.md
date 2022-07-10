@@ -1,2 +1,2 @@
 # git_learning
-For Practice Git commands
+To Practice basic Git commands
