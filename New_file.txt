@@ -1,3 +1,4 @@
 Text added to create conflict in develop branch using sub_develop
+Text added to create conflict in develop branch using sub_dev2
 Text added in sub develop branch
 Practicing Git Commands
