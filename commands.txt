@@ -1,0 +1,47 @@
+1. Created a repo using:
+     git init git_learning
+
+2. Navigated to the repo using:
+    cd git_learning
+
+3. Right click and create New_file.txt and add some text to it.
+
+4. Do the following commands for pusing to the remote:
+    # git status
+    # git add .
+    # git commit -m "Your message"
+    # git push
+
+5. Your first local commit will be pushed to remote master and git_learning repo will also be Created.
+
+6. Create new Branch "develop" using:
+    git checkout -b develop
+
+7. Now create new branch "sub_develop" from develop branch using:
+        git checkout -b sub_develop develop\
+
+8. Add first line and repeat step 4.
+
+9. clone branch to separate folder using:
+    git clone https://github.com/navdeepc/git_learning.git
+
+10. git checkout develop to switch to develop branch
+
+11. Now create new branch "sub_dev2" from develop branch using:
+        git checkout -b sub_develop develop
+
+12. Add the first line of the text file (different from the first branch) and repeat step-4.
+
+13. Switch to develop branch using: 
+        git checkout develop
+
+14. Merge first branch using:
+        git pull origin sub_develop
+
+15. Repeat step-4.
+
+16. Merge second branch using:
+        git pull origin sub_dev2
+
+17. Resolved conflicts and Repeat step-4.
+
